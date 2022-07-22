@@ -7,7 +7,7 @@ public class HomeInsurancePolicy extends InsurancePolicy {
     private int yearBuilt;
 
     public HomeInsurancePolicy() {
-        super(PolicyType.MOTOR);
+        super(PolicyType.HOME);
     }
 
     public HomeInsurancePolicy(long policyNumber, String title, String firstName, String surname, long sumInsured, BigDecimal price, boolean active, String address, int yearBuilt) {
